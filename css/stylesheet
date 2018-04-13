@@ -3,3 +3,22 @@
   height: 400px;
   width: 100%;
   }
+  
+.post-button{
+  display: block;
+	margin: 70px auto 25px auto;
+	height: 225px;
+	width: 350px;
+}
+
+a.post-btn{
+  display: block;
+	margin: 25px 0;
+	line-height: 35px;
+	font-family: futura-lt, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 6px 0;
+	color: white;
+  background-color: #cbffcb;
+}
