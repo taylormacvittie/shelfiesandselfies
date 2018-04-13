@@ -1,2 +1,0 @@
-# shelfiesandselfies
-Pop culture blog.
