@@ -1,18 +1,18 @@
 .nav{
-  background: url();
+  background: url(/images/MARIA-BLANC-07.jpg);
   height: 400px;
   width: 100%;
   }
   
 .post-button{
-  display: block;
+  	display: block;
 	margin: 70px auto 25px auto;
 	height: 225px;
 	width: 350px;
 }
 
 a.post-btn{
-  display: block;
+  	display: block;
 	margin: 25px 0;
 	line-height: 35px;
 	font-family: futura-lt, sans-serif;
@@ -20,5 +20,5 @@ a.post-btn{
 	text-align: center;
 	padding: 6px 0;
 	color: white;
-  background-color: #cbffcb;
+  	background-color: #cbffcb;
 }
