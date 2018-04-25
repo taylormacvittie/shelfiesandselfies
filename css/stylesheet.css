@@ -2,14 +2,24 @@ body{
      margin: 0px;
 }
 
-nav{
+.ss-navbar{
     background: rgba(175, 230, 214, 1);
     height: 50px;
+    width: 100%;
+    display: inline-block;
 }
 
-nav a{
-	text-align: center;
-	padding: 20px;
+.ss-nav{
+	list-style: none;
+    text-align: center;
+	margin-top: 10px
+}
+
+.ss-navbar li a{
+	font-family: 'helvetica', sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	
 }
 
 .header{
@@ -19,8 +29,14 @@ nav a{
     width: 100%;
   }
 
+.title{
+	height: 125px;
+	width: 350px;
+	background: rgba (255, 255, 255, 0.6);
+}
+
 .header h1{
-    font-family: sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-weight: 300;
     font-size: 25px;
     text-align: center;
@@ -28,7 +44,7 @@ nav a{
 }
 
 .header h3{
-    font-family: sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-weight: 300;
     font-size: 15px;
     text-align: center;
@@ -46,11 +62,11 @@ a.post-button{
   	display: block;
 	margin: 25px 0;
 	line-height: 35px;
-	font-family: sans-serif;
+	font-family: 'helvetica', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 6px 0;
-	color: white;
+	color: #ffffff;
 	background: rgba(175, 230, 214, 1);
 }
 
@@ -60,10 +76,10 @@ a.post-button{
 }
 
 .footer h2{
-    font-family: sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-weight: 100;
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     padding-top: 15px;
 }
