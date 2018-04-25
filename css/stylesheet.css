@@ -1,17 +1,43 @@
-.nav{
-  background: url(/images/MARIA-BLANC-07.jpg);
-  height: 400px;
-  width: 100%;
+body{
+     margin: 0px;
+}
+
+nav{
+    background: rgba(175, 230, 214, 1);
+    height: 50px;
+}
+
+.header{
+    background: url(http://www.designlovefest.com/wp-content/uploads/downloads/2017/08/hilary-butler-14.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
   }
+
+.header h1{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 175px;
+}
+
+.header h3{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #696969;
+}
   
-.post-button{
+.post-btn{
   	display: block;
 	margin: 70px auto 25px auto;
 	height: 225px;
 	width: 350px;
 }
 
-a.post-btn{
+a.post-button{
   	display: block;
 	margin: 25px 0;
 	line-height: 35px;
