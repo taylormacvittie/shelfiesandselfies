@@ -28,7 +28,7 @@ body{
 }
 
 .header{
-    background: url(images/hilary-butler-14.jpg);
+    background: url(../images/hilary-butler-14.jpg);
     background-size: cover;
     height: 400px;
     width: 100%;
