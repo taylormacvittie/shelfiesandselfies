@@ -98,13 +98,19 @@ a.post-button{
 }
 
 .social-bar{
-    width: 250px;
+    width: 150px;
     margin: 12px auto;
     list-style: none;
+	padding: 0px;
 }
 
 .social-footer li{
 	display: inline-block;
 	text-align: center;
-	width: 75px;
+	width: 50px;
 }
+
+a:link, a:visited, a:hover, a:active{ 
+	text-decoration: none
+}
+
