@@ -10,7 +10,7 @@ body{
 }
 
 .ss-nav{
-    width: 400px;
+    width: 250px;
     margin: 12px auto;
     list-style: none;	
 }
@@ -22,7 +22,7 @@ body{
 }
 
 .ss-navbar li{
-	display: block;
+	display: inline-block;
 	text-align: center;
 	width: 75px;
 }
@@ -96,13 +96,13 @@ a.post-button{
 }
 
 .social-bar{
-    width: 400px;
+    width: 250px;
     margin: 12px auto;
     list-style: none;
 }
 
 .social-icon li{
-	display: block;
+	display: inline-block;
 	text-align: center;
 	width: 75px;
 }
