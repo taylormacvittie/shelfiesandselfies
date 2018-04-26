@@ -93,6 +93,8 @@ a.post-button{
 
 .social-footer{
 	display: inline-block;
+	width: 100%;
+	height: 50px;
 }
 
 .social-bar{
@@ -101,7 +103,7 @@ a.post-button{
     list-style: none;
 }
 
-.social-icon li{
+.social-footer li{
 	display: inline-block;
 	text-align: center;
 	width: 75px;
