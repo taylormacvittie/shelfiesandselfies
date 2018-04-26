@@ -10,16 +10,21 @@ body{
 }
 
 .ss-nav{
-	list-style: none;
-    text-align: center;
-	margin-top: 10px
+    width: 400px;
+    margin: 12px auto;
+    list-style: none;	
 }
 
-.ss-navbar li a{
+.ss-navbar a{
 	font-family: 'helvetica', sans-serif;
 	font-size: 15px;
-	color: #ffffff;
-	
+	color: #ffffff;	
+}
+
+.ss-navbar li{
+	display: block;
+	text-align: center;
+	width: 75px;
 }
 
 .header{
@@ -30,9 +35,10 @@ body{
   }
 
 .title{
-	height: 125px;
-	width: 350px;
-	background: rgba (255, 255, 255, 0.6);
+    height: 75px;
+    width: 360px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: auto;
 }
 
 .header h1{
@@ -70,6 +76,7 @@ a.post-button{
 	background: rgba(175, 230, 214, 1);
 }
 
+
 .footer {
     background: rgba(175, 230, 214, 1);
     height: 100px;
@@ -82,4 +89,20 @@ a.post-button{
     text-align: center;
     color: #ffffff;
     padding-top: 15px;
+}
+
+.social-footer{
+	display: inline-block;
+}
+
+.social-bar{
+    width: 400px;
+    margin: 12px auto;
+    list-style: none;
+}
+
+.social-icon li{
+	display: block;
+	text-align: center;
+	width: 75px;
 }
